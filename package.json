@@ -1,0 +1,46 @@
+{
+  "name": "imicros-mail-imap",
+  "version": "0.0.1",
+  "author": "Andreas Leinen <andreas.leinen@imicros.de> (www.imicros.de)",
+  "license": "MIT",
+  "description": "Moleculer service for handling mailboxes via imap",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --no-cache --silent",
+    "test-local": "jest --coverage --no-cache"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "lib/*.js",
+      "lib/util/*.js",
+      "!lib/globals.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al66/imicros-mail-imap.git"
+  },
+  "keywords": [
+    "imicros",
+    "moleculer",
+    "mail",
+    "imap"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.1.0",
+    "imicros-acl": "^0.0.6",
+    "imicros-minio": "0.0.7",
+    "jest": "^26.6.1",
+    "moleculer": "^0.14.11",
+    "nats": "^1.4.12",
+    "nodemailer": "^6.4.14",
+    "pino": "^6.7.0",
+    "util": "^0.12.3",
+    "uuid": "^8.3.1"
+  },
+  "dependencies": {
+    "imap": "^0.8.19",
+    "lodash": "^4.17.20"
+  }
+}
