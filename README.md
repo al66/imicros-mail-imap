@@ -12,3 +12,21 @@ Requires additional running services: [imicros-minio](https://github.com/al66/im
 $ npm install imicros-mail-imap --save
 ```
 
+## ToDo's
+Everything ... can currently only save and verify a connection
+- getBoxes
+- addBox
+- delBox
+- renameBox
+- expunge
+- append
+- search
+- fetch
+- copy
+- move
+- addFlags
+- deleteFlags
+- setFlags
+- addKeywords
+- delKeywords
+- setKeywords
